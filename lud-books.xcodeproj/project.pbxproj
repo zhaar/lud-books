@@ -14,6 +14,10 @@
 		9574B7971CD41BC600375111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9574B7951CD41BC600375111 /* LaunchScreen.storyboard */; };
 		9574B7A21CD41BC600375111 /* lud_booksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9574B7A11CD41BC600375111 /* lud_booksTests.swift */; };
 		9574B7AD1CD41BC600375111 /* lud_booksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9574B7AC1CD41BC600375111 /* lud_booksUITests.swift */; };
+		95B75C551CD7FA6800F7C112 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B75C541CD7FA6800F7C112 /* Network.swift */; };
+		95B75C571CD7FAD100F7C112 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B75C561CD7FAD100F7C112 /* Book.swift */; };
+		95B75C601CD7FE4900F7C112 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B75C581CD7FAF800F7C112 /* Alamofire.framework */; };
+		95B75C611CD7FE5400F7C112 /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B75C5C1CD7FB0600F7C112 /* BrightFutures.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9574B7A81CD41BC600375111 /* lud-books.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lud-books.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9574B7AC1CD41BC600375111 /* lud_booksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lud_booksUITests.swift; sourceTree = "<group>"; };
 		9574B7AE1CD41BC600375111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B75C541CD7FA6800F7C112 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		95B75C561CD7FAD100F7C112 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		95B75C581CD7FAF800F7C112 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		95B75C5C1CD7FB0600F7C112 /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/iOS/BrightFutures.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B75C611CD7FE5400F7C112 /* BrightFutures.framework in Frameworks */,
+				95B75C601CD7FE4900F7C112 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +87,8 @@
 		9574B7801CD41BC600375111 = {
 			isa = PBXGroup;
 			children = (
+				95B75C5C1CD7FB0600F7C112 /* BrightFutures.framework */,
+				95B75C581CD7FAF800F7C112 /* Alamofire.framework */,
 				9574B78B1CD41BC600375111 /* lud-books */,
 				9574B7A01CD41BC600375111 /* lud-booksTests */,
 				9574B7AB1CD41BC600375111 /* lud-booksUITests */,
@@ -97,6 +109,7 @@
 		9574B78B1CD41BC600375111 /* lud-books */ = {
 			isa = PBXGroup;
 			children = (
+				95B75C531CD7FA3F00F7C112 /* Data types */,
 				9574B78C1CD41BC600375111 /* AppDelegate.swift */,
 				9574B78E1CD41BC600375111 /* ViewController.swift */,
 				9574B7901CD41BC600375111 /* Main.storyboard */,
@@ -128,6 +141,15 @@
 			path = "my-booksUITests";
 			sourceTree = "<group>";
 		};
+		95B75C531CD7FA3F00F7C112 /* Data types */ = {
+			isa = PBXGroup;
+			children = (
+				95B75C541CD7FA6800F7C112 /* Network.swift */,
+				95B75C561CD7FAD100F7C112 /* Book.swift */,
+			);
+			name = "Data types";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +160,7 @@
 				9574B7851CD41BC600375111 /* Sources */,
 				9574B7861CD41BC600375111 /* Frameworks */,
 				9574B7871CD41BC600375111 /* Resources */,
+				95B75C621CD7FE8700F7C112 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,13 +277,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		95B75C621CD7FE8700F7C112 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/BrightFutures.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9574B7851CD41BC600375111 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B75C571CD7FAD100F7C112 /* Book.swift in Sources */,
 				9574B78F1CD41BC600375111 /* ViewController.swift in Sources */,
 				9574B78D1CD41BC600375111 /* AppDelegate.swift in Sources */,
+				95B75C551CD7FA6800F7C112 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +447,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "my-books/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moe.lewd-books.my-books";
@@ -415,6 +462,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "my-books/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moe.lewd-books.my-books";
