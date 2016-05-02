@@ -12,8 +12,8 @@
 		9574B7921CD41BC600375111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9574B7901CD41BC600375111 /* Main.storyboard */; };
 		9574B7941CD41BC600375111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9574B7931CD41BC600375111 /* Assets.xcassets */; };
 		9574B7971CD41BC600375111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9574B7951CD41BC600375111 /* LaunchScreen.storyboard */; };
-		9574B7A21CD41BC600375111 /* my_booksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9574B7A11CD41BC600375111 /* my_booksTests.swift */; };
-		9574B7AD1CD41BC600375111 /* my_booksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9574B7AC1CD41BC600375111 /* my_booksUITests.swift */; };
+		9574B7A21CD41BC600375111 /* lud_booksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9574B7A11CD41BC600375111 /* lud_booksTests.swift */; };
+		9574B7AD1CD41BC600375111 /* lud_booksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9574B7AC1CD41BC600375111 /* lud_booksUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,18 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9574B7891CD41BC600375111 /* my-books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9574B7891CD41BC600375111 /* lud-books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lud-books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9574B78C1CD41BC600375111 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9574B78E1CD41BC600375111 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9574B7911CD41BC600375111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9574B7931CD41BC600375111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9574B7961CD41BC600375111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9574B7981CD41BC600375111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9574B79D1CD41BC600375111 /* my-booksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-booksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9574B7A11CD41BC600375111 /* my_booksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_booksTests.swift; sourceTree = "<group>"; };
+		9574B79D1CD41BC600375111 /* lud-books.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lud-books.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9574B7A11CD41BC600375111 /* lud_booksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lud_booksTests.swift; sourceTree = "<group>"; };
 		9574B7A31CD41BC600375111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9574B7A81CD41BC600375111 /* my-booksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-booksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9574B7AC1CD41BC600375111 /* my_booksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_booksUITests.swift; sourceTree = "<group>"; };
+		9574B7A81CD41BC600375111 /* lud-books.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lud-books.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9574B7AC1CD41BC600375111 /* lud_booksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lud_booksUITests.swift; sourceTree = "<group>"; };
 		9574B7AE1CD41BC600375111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,9 +77,9 @@
 		9574B7801CD41BC600375111 = {
 			isa = PBXGroup;
 			children = (
-				9574B78B1CD41BC600375111 /* my-books */,
-				9574B7A01CD41BC600375111 /* my-booksTests */,
-				9574B7AB1CD41BC600375111 /* my-booksUITests */,
+				9574B78B1CD41BC600375111 /* lud-books */,
+				9574B7A01CD41BC600375111 /* lud-booksTests */,
+				9574B7AB1CD41BC600375111 /* lud-booksUITests */,
 				9574B78A1CD41BC600375111 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		9574B78A1CD41BC600375111 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9574B7891CD41BC600375111 /* my-books.app */,
-				9574B79D1CD41BC600375111 /* my-booksTests.xctest */,
-				9574B7A81CD41BC600375111 /* my-booksUITests.xctest */,
+				9574B7891CD41BC600375111 /* lud-books.app */,
+				9574B79D1CD41BC600375111 /* lud-books.xctest */,
+				9574B7A81CD41BC600375111 /* lud-books.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9574B78B1CD41BC600375111 /* my-books */ = {
+		9574B78B1CD41BC600375111 /* lud-books */ = {
 			isa = PBXGroup;
 			children = (
 				9574B78C1CD41BC600375111 /* AppDelegate.swift */,
@@ -104,33 +104,36 @@
 				9574B7951CD41BC600375111 /* LaunchScreen.storyboard */,
 				9574B7981CD41BC600375111 /* Info.plist */,
 			);
+			name = "lud-books";
 			path = "my-books";
 			sourceTree = "<group>";
 		};
-		9574B7A01CD41BC600375111 /* my-booksTests */ = {
+		9574B7A01CD41BC600375111 /* lud-booksTests */ = {
 			isa = PBXGroup;
 			children = (
-				9574B7A11CD41BC600375111 /* my_booksTests.swift */,
+				9574B7A11CD41BC600375111 /* lud_booksTests.swift */,
 				9574B7A31CD41BC600375111 /* Info.plist */,
 			);
+			name = "lud-booksTests";
 			path = "my-booksTests";
 			sourceTree = "<group>";
 		};
-		9574B7AB1CD41BC600375111 /* my-booksUITests */ = {
+		9574B7AB1CD41BC600375111 /* lud-booksUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9574B7AC1CD41BC600375111 /* my_booksUITests.swift */,
+				9574B7AC1CD41BC600375111 /* lud_booksUITests.swift */,
 				9574B7AE1CD41BC600375111 /* Info.plist */,
 			);
+			name = "lud-booksUITests";
 			path = "my-booksUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9574B7881CD41BC600375111 /* my-books */ = {
+		9574B7881CD41BC600375111 /* lud-books */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9574B7B11CD41BC600375111 /* Build configuration list for PBXNativeTarget "my-books" */;
+			buildConfigurationList = 9574B7B11CD41BC600375111 /* Build configuration list for PBXNativeTarget "lud-books" */;
 			buildPhases = (
 				9574B7851CD41BC600375111 /* Sources */,
 				9574B7861CD41BC600375111 /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = "my-books";
+			name = "lud-books";
 			productName = "my-books";
-			productReference = 9574B7891CD41BC600375111 /* my-books.app */;
+			productReference = 9574B7891CD41BC600375111 /* lud-books.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9574B79C1CD41BC600375111 /* my-booksTests */ = {
+		9574B79C1CD41BC600375111 /* lud-booksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9574B7B41CD41BC600375111 /* Build configuration list for PBXNativeTarget "my-booksTests" */;
+			buildConfigurationList = 9574B7B41CD41BC600375111 /* Build configuration list for PBXNativeTarget "lud-booksTests" */;
 			buildPhases = (
 				9574B7991CD41BC600375111 /* Sources */,
 				9574B79A1CD41BC600375111 /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				9574B79F1CD41BC600375111 /* PBXTargetDependency */,
 			);
-			name = "my-booksTests";
+			name = "lud-booksTests";
 			productName = "my-booksTests";
-			productReference = 9574B79D1CD41BC600375111 /* my-booksTests.xctest */;
+			productReference = 9574B79D1CD41BC600375111 /* lud-books.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9574B7A71CD41BC600375111 /* my-booksUITests */ = {
+		9574B7A71CD41BC600375111 /* lud-booksUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9574B7B71CD41BC600375111 /* Build configuration list for PBXNativeTarget "my-booksUITests" */;
+			buildConfigurationList = 9574B7B71CD41BC600375111 /* Build configuration list for PBXNativeTarget "lud-booksUITests" */;
 			buildPhases = (
 				9574B7A41CD41BC600375111 /* Sources */,
 				9574B7A51CD41BC600375111 /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				9574B7AA1CD41BC600375111 /* PBXTargetDependency */,
 			);
-			name = "my-booksUITests";
+			name = "lud-booksUITests";
 			productName = "my-booksUITests";
-			productReference = 9574B7A81CD41BC600375111 /* my-booksUITests.xctest */;
+			productReference = 9574B7A81CD41BC600375111 /* lud-books.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9574B7841CD41BC600375111 /* Build configuration list for PBXProject "my-books" */;
+			buildConfigurationList = 9574B7841CD41BC600375111 /* Build configuration list for PBXProject "lud-books" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9574B7881CD41BC600375111 /* my-books */,
-				9574B79C1CD41BC600375111 /* my-booksTests */,
-				9574B7A71CD41BC600375111 /* my-booksUITests */,
+				9574B7881CD41BC600375111 /* lud-books */,
+				9574B79C1CD41BC600375111 /* lud-booksTests */,
+				9574B7A71CD41BC600375111 /* lud-booksUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9574B7A21CD41BC600375111 /* my_booksTests.swift in Sources */,
+				9574B7A21CD41BC600375111 /* lud_booksTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9574B7AD1CD41BC600375111 /* my_booksUITests.swift in Sources */,
+				9574B7AD1CD41BC600375111 /* lud_booksUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		9574B79F1CD41BC600375111 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9574B7881CD41BC600375111 /* my-books */;
+			target = 9574B7881CD41BC600375111 /* lud-books */;
 			targetProxy = 9574B79E1CD41BC600375111 /* PBXContainerItemProxy */;
 		};
 		9574B7AA1CD41BC600375111 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9574B7881CD41BC600375111 /* my-books */;
+			target = 9574B7881CD41BC600375111 /* lud-books */;
 			targetProxy = 9574B7A91CD41BC600375111 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -404,7 +407,7 @@
 				INFOPLIST_FILE = "my-books/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moe.lewd-books.my-books";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "lud-books";
 			};
 			name = Debug;
 		};
@@ -415,7 +418,7 @@
 				INFOPLIST_FILE = "my-books/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moe.lewd-books.my-books";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "lud-books";
 			};
 			name = Release;
 		};
@@ -426,8 +429,8 @@
 				INFOPLIST_FILE = "my-booksTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moe.lewd-books.my-booksTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-books.app/my-books";
+				PRODUCT_NAME = "lud-books";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lud-books.app/lud-books";
 			};
 			name = Debug;
 		};
@@ -438,8 +441,8 @@
 				INFOPLIST_FILE = "my-booksTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moe.lewd-books.my-booksTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-books.app/my-books";
+				PRODUCT_NAME = "lud-books";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lud-books.app/lud-books";
 			};
 			name = Release;
 		};
@@ -449,7 +452,7 @@
 				INFOPLIST_FILE = "my-booksUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moe.lewd-books.my-booksUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "lud-books";
 				TEST_TARGET_NAME = "my-books";
 			};
 			name = Debug;
@@ -460,7 +463,7 @@
 				INFOPLIST_FILE = "my-booksUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moe.lewd-books.my-booksUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "lud-books";
 				TEST_TARGET_NAME = "my-books";
 			};
 			name = Release;
@@ -468,7 +471,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9574B7841CD41BC600375111 /* Build configuration list for PBXProject "my-books" */ = {
+		9574B7841CD41BC600375111 /* Build configuration list for PBXProject "lud-books" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9574B7AF1CD41BC600375111 /* Debug */,
@@ -477,29 +480,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9574B7B11CD41BC600375111 /* Build configuration list for PBXNativeTarget "my-books" */ = {
+		9574B7B11CD41BC600375111 /* Build configuration list for PBXNativeTarget "lud-books" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9574B7B21CD41BC600375111 /* Debug */,
 				9574B7B31CD41BC600375111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9574B7B41CD41BC600375111 /* Build configuration list for PBXNativeTarget "my-booksTests" */ = {
+		9574B7B41CD41BC600375111 /* Build configuration list for PBXNativeTarget "lud-booksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9574B7B51CD41BC600375111 /* Debug */,
 				9574B7B61CD41BC600375111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9574B7B71CD41BC600375111 /* Build configuration list for PBXNativeTarget "my-booksUITests" */ = {
+		9574B7B71CD41BC600375111 /* Build configuration list for PBXNativeTarget "lud-booksUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9574B7B81CD41BC600375111 /* Debug */,
 				9574B7B91CD41BC600375111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
